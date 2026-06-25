@@ -1,0 +1,4 @@
+# SPA fallback: serve index.html for client-side routes like /book-online
+# (Netlify format). For Vercel add a rewrite, for Apache use .htaccess,
+# for nginx use: try_files $uri /index.html;
+/*    /index.html   200
