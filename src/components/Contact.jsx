@@ -88,7 +88,7 @@ export default function Contact() {
                 href={d.href}
                 target={d.href.startsWith('http') ? '_blank' : undefined}
                 rel="noreferrer"
-                className="group flex items-center gap-4 rounded-2xl border border-forest/10 bg-cream p-4 transition-all duration-300 hover:border-leaf/40 hover:shadow-md hover:shadow-forest/5"
+                className="group flex items-center gap-4 rounded-2xl border border-forest/10 bg-white p-4 shadow-[0_8px_24px_-16px_rgba(8,67,30,0.18)] transition-all duration-300 hover:-translate-y-0.5 hover:border-leaf/40 hover:shadow-[0_14px_30px_-16px_rgba(8,67,30,0.24)]"
               >
                 <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-sage/40 text-forest transition-colors group-hover:bg-forest group-hover:text-cream">
                   <d.icon size={20} />

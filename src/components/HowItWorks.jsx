@@ -43,7 +43,7 @@ export default function HowItWorks() {
               <motion.div
                 key={step.title}
                 variants={fadeUp}
-                className="group relative rounded-3xl border border-forest/10 bg-cream p-7 transition-all duration-300 hover:-translate-y-1.5 hover:border-leaf/30 hover:shadow-lg hover:shadow-forest/10"
+                className="group relative rounded-3xl border border-forest/10 bg-white p-7 shadow-[0_14px_36px_-18px_rgba(8,67,30,0.18)] transition-all duration-300 hover:-translate-y-1.5 hover:border-leaf/40 hover:shadow-[0_22px_48px_-20px_rgba(8,67,30,0.26)]"
               >
                 <span className="absolute right-6 top-6 font-serif text-5xl font-semibold text-sage/60">
                   {String(i + 1).padStart(2, '0')}

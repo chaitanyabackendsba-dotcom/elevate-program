@@ -42,7 +42,7 @@
   }
 
   .eyebrow {
-    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.22em] text-leaf;
+    @apply inline-flex items-center gap-2 text-[0.72rem] font-extrabold uppercase tracking-[0.16em] text-leaf;
   }
 
   .btn-primary {

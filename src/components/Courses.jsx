@@ -48,7 +48,7 @@ export default function Courses() {
               key={course.n}
               to={`/book-online?course=${encodeURIComponent(course.title)}`}
               variants={fadeUp}
-              className="group relative flex flex-col overflow-hidden rounded-3xl border border-forest/10 bg-cream shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl hover:shadow-forest/10"
+              className="group relative flex flex-col overflow-hidden rounded-3xl border border-forest/10 bg-white shadow-[0_14px_36px_-18px_rgba(8,67,30,0.22)] transition-all duration-300 hover:-translate-y-1.5 hover:border-leaf/40 hover:shadow-[0_22px_48px_-20px_rgba(8,67,30,0.28)]"
             >
               <div className="relative h-52 overflow-hidden">
                 <img
