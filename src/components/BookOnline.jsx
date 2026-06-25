@@ -129,11 +129,10 @@ export default function BookOnline() {
       <section className="relative overflow-hidden bg-forest pt-32 pb-16 text-cream sm:pt-36 sm:pb-20">
         <div
           aria-hidden
-          className="pointer-events-none absolute inset-0 opacity-[0.06]"
+          className="pointer-events-none absolute inset-0"
           style={{
-            backgroundImage:
-              'linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)',
-            backgroundSize: '52px 52px',
+            background:
+              'radial-gradient(70% 60% at 50% 0%, rgba(212,233,207,0.10), transparent 70%)',
           }}
         />
         <motion.div

@@ -43,14 +43,13 @@ export default function Hero() {
         animate={reduce ? {} : { x: [0, -30, 0], y: [0, -24, 0] }}
         transition={{ duration: 22, repeat: Infinity, ease: 'easeInOut' }}
       />
-      {/* Subtle grid texture */}
+      {/* Soft radial glow (replaces the old grid texture) */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 opacity-[0.06]"
+        className="pointer-events-none absolute inset-0"
         style={{
-          backgroundImage:
-            'linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)',
-          backgroundSize: '52px 52px',
+          background:
+            'radial-gradient(60% 55% at 50% 0%, rgba(212,233,207,0.12), transparent 70%)',
         }}
       />
 
