@@ -65,6 +65,7 @@ export default function Contact() {
           initial="hidden"
           whileInView="show"
           viewport={viewport}
+          className="min-w-0"
         >
           <motion.span variants={fadeUp} className="eyebrow">
             Get in touch
@@ -136,7 +137,7 @@ export default function Contact() {
             initial="hidden"
             whileInView="show"
             viewport={viewport}
-            className="rounded-3xl border border-forest/10 bg-forest p-7 text-cream shadow-xl shadow-forest/10 sm:p-9"
+            className="min-w-0 rounded-3xl border border-forest/10 bg-forest p-7 text-cream shadow-xl shadow-forest/10 sm:p-9"
           >
             <h3 className="font-serif text-2xl font-semibold">Send us a message</h3>
             <p className="mt-2 text-sm text-cream/70">We usually respond within one business day.</p>
