@@ -14,12 +14,16 @@
     scroll-behavior: smooth;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
   }
 
   body {
     background-color: var(--cream);
     color: var(--forest);
     font-family: 'Manrope', system-ui, sans-serif;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
     overflow-x: hidden;
   }
 
